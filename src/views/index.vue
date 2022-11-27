@@ -1,7 +1,7 @@
 <template>
   <div class="123" data-id="123">
     <div>
-      123234
+      1
     </div>
   </div>
 </template>

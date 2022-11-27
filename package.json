@@ -13,6 +13,19 @@
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{vue,scss,ts}": [
+      "prettier --write"
+    ],
+    "*.{vue,ts}": [
+      "eslint"
+    ]
+  },
   "dependencies": {
     "husky": "^8.0.2",
     "lint-staged": "^13.0.4",
@@ -41,13 +54,5 @@
     "vite": "^3.2.4",
     "vitest": "^0.25.3",
     "vue-tsc": "^1.0.9"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.(ts|vue)": ["npm run lint:write", "git add"]
   }
 }

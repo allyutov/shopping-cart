@@ -1,11 +1,11 @@
 <template>
-  <div class="shopping-cart">
-    <router-view/>
-  </div>
+  <main class="shopping-cart">
+    <router-view />
+  </main>
 </template>
 
 <script>
 export default {
-  name: 'shop',
+  name: "ShopLayout",
 };
 </script>

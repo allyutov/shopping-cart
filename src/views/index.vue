@@ -1,10 +1,6 @@
 <template>
-  <div class="123" data-id="123">
-    <div>
-      <div>
-        12323
-      </div>
-    </div>
+  <div>
+    <form action=""></form>
   </div>
 </template>
 
@@ -14,4 +10,4 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style lang="scss"></style>

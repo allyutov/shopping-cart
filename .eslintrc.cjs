@@ -118,7 +118,7 @@ module.exports = {
     'linebreak-style': ['error', 'unix'], //стиль разрыва строки linebreak-style: ["error", "unix || windows"]
     'no-console': 'error', // без console.log
     'no-debugger': 'error',// без debugger
-    'arrow-parens': ['error', 'as-needed'], // скобки в стрелочной функции
+    // 'arrow-parens': ['error', 'as-needed'], // скобки в стрелочной функции
     'no-plusplus': 'off', //запрещает унарные операторы ++и --
     'constructor-super': 'off', // конструкторы производных классов должны вызывать super(). Конструкторы не производных классов не должны вызывать super().
     'no-mixed-operators': [ //Заключение сложных выражений в круглые скобки проясняет замысел разработчика

@@ -8,6 +8,7 @@
     >
       <router-link :to="{ name: tab.route }" class="shopping-tabs__link">
         {{ tab.name }}
+
       </router-link>
     </span>
   </div>

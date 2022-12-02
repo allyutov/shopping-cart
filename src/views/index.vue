@@ -28,11 +28,7 @@
 <script lang="ts">
 import type { TabType } from "@/types/tabs";
 import { reactive } from "vue";
-
-declare module "@/components/layouts/shop.vue";
 import AppTabs from "@/components/common/tabs.vue";
-
-declare module "@/components/form/input-element.vue";
 import AppInputElement from "@/components/form/input-element.vue";
 
 export default {

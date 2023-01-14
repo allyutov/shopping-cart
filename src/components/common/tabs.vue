@@ -16,13 +16,15 @@
 <script lang="ts">
 import { useRoute } from "vue-router";
 import { defineComponent } from "vue";
+import type { PropType } from "vue";
+import type { TabType } from "@/types/tabs";
 
 export default defineComponent({
   name: "AppTabs",
 
   props: {
     tabs: {
-      type: Object,
+      type: Object as PropType<TabType>,
       default: null,
     },
   },

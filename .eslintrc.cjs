@@ -147,7 +147,7 @@ module.exports = {
     ],
     'no-bitwise': ['error', { allow: ['~'] }], // запрещает побитовые операторы.
     'no-unused-vars': ['error', { argsIgnorePattern: '^_' }], // запрещает неиспользуемые переменные.
-    'max-len': ['error', { code: 120 }], // обеспечивает максимальную длину строки.
+    'max-len': ['error', { code: 200 }], // обеспечивает максимальную длину строки.
     'object-curly-newline': ['error', {
       ObjectExpression: { multiline: true, consistent: true },
       ObjectPattern: { multiline: true, consistent: true }
